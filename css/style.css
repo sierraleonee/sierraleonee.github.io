@@ -1,4 +1,40 @@
-H1 {
-  color: 5F9EA0;
-  font-family: "Papyrus", Fantasy;
+body {margin:0;}
+
+.navbar (
+  overflow: hidden;
+  position: fixed
+  top: 0;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  width: 100%;
+  list-style: none;
+  marjin: auto;
+  padding:0;
+  text-align:center;
+  border-bottom: 1px solid #D6DBD4
 }
+
+.navbar
+  display: inline-block
+  color: #54585A
+  text-align: center;
+  padding: 14px 16xp 4px;
+  text-decoration: none;
+  font-size: 17px
+}
+
+.navbar a:active {
+  color: black;
+}
+
+.navbar li {
+  display:inline
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.man {
+  padding: 16px;
+  margin-top: 30px;
